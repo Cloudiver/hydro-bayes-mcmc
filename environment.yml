@@ -1,0 +1,20 @@
+name: HBM
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - jupyterlab
+  - ipywidgets
+  - pandas
+  - matplotlib
+  - plotly
+  - libpython
+  - mkl-service
+  - m2w64-toolchain
+  - numba
+  - pip
+  - python-graphviz
+  - scipy
+  - pip:
+    - pymc3
